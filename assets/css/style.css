@@ -43,7 +43,7 @@ p {
   width: 600px
 }
 body {
-  background-image:"fishnets-and-hearts.png"; 
+  background-image: URL "fishnets-and-hearts.png";
 }
 .footer {
   height: 50px;
