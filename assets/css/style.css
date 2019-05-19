@@ -5,20 +5,23 @@ h1 {
   display: inline;
   margin-left: 30px;
   font-size: 50px;
+  border-color: #cccccc;
   background-size: 90px;
   } 
+  header {
+    border-style: outset;
+  }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    margin-bottom: 30px;
+    background-color:#ffffff;
+    color: #4aaaa5;
     margin-left: 30px;
   }
 img {
-  width: 275Spx;
-  height: 400px;
+  width: 200px;
+  height: 250px;
   float: left;
-  border: 20px;
+  margin: 20px;
 }
 li {
   display: inline;
@@ -27,8 +30,17 @@ ul {
   display: inline;
   float: right;
 }
-div {
-  width: 300px;
-  margin: 0 auto; 
+#container {
+  margin: 0 auto;
   border-style: outset;
+  width: 960px;
+  height: 500px;
+  clear: left;
+}
+p {
+  float: left;
+  width: 600px
+}
+body {
+  background-image: "fishnets-and-hearts.png";
 }
