@@ -10,6 +10,7 @@ h1 {
   } 
   header {
     border-bottom: outset;
+    background-color: #ffffff;
   }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -33,17 +34,18 @@ ul {
 }
 #container {
   margin: 0 auto;
-  border-style: outset;
+  border:solid 2px #dddddd;
   width: 960px;
   height: 500px;
   clear: left;
+  background-color: #ffffff;
 }
 p {
   float: left;
   width: 600px
 }
 body {
-  background-image: URL "fishnets-and-hearts.png";
+  background-image: url("./assets/images/floor-tile.png")
 }
 .footer {
   height: 50px;
@@ -52,5 +54,5 @@ body {
   right: 0;
   left: 0;
   bottom: 0;
-  border-top: solid 5px #4aaaa5
+  border-top: solid 8px #4aaaa5
   }
